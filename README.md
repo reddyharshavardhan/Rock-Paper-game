@@ -27,7 +27,7 @@ Welcome to an interactive and stylish **Rock-Paper-Scissors** game built with **
 
 | Start Screen | Gameplay | Dashboard |
 |--------------|----------|-----------|
-| ![Start](assets/start.png) | ![Game](assets/game.png) | ![Scoreboard](assets/scoreboard.png) |
+| ![Start](start.png) | ![Game](game.png) | ![Scoreboard](scoreboard.png) |
 
 ---
 
