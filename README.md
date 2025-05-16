@@ -55,15 +55,40 @@ rock-paper-scissors/
 │   └── fail.mp3
 └── README.md
 
+```
 
+---
 
 ## 💡 Learning Highlights
-DOM manipulation and event handling
 
-Game logic implementation
+- DOM manipulation and event handling  
+- Game logic implementation  
+- Using animations and transitions  
+- Audio handling in web apps  
+- UI/UX polish and responsive design  
 
-Using animations and transitions
+---
 
-Audio handling in web apps
+## 🛠️ How to Run Locally
 
-UI/UX polish and responsive design
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/reddyharshavardhan/Rock-Paper-game.git
+   ```
+2. Open the folder  
+   ```bash
+   cd Rock-Paper-game
+   ```
+3. Open `index.html` in your browser  
+
+---
+
+## 🔊 Sound Effects
+
+- 🎵 `start.mp3`: Plays when game begins  
+- 🎉 `win.mp3`: Plays when player wins  
+- 😢 `fail.mp3`: Plays when player loses  
+- 🤝 `draw.mp3`: Plays on draw  
+
+Make sure all sound files are inside the `/sounds` folder.
+
