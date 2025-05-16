@@ -1,0 +1,158 @@
+/* Background gradient */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  color: #fff;
+}
+
+.screen {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  width: 320px;
+  max-width: 90vw;
+  text-align: center;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hidden {
+  display: none;
+}
+
+#hands {
+  font-size: 6rem;
+  margin: 20px 0;
+  user-select: none;
+  filter: drop-shadow(0 2px 2px rgba(0,0,0,0.3));
+}
+
+.centered-text {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 20px auto;
+  min-height: 3rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+button {
+  padding: 12px 24px;
+  margin: 12px 8px 0 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.15s ease;
+  color: #fff;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  box-shadow: none;
+}
+
+/* Buttons colors */
+#startBtn {
+  background: #5e72e4;
+}
+
+#startBtn:hover:not(:disabled) {
+  background: #324cdd;
+}
+
+.choiceBtn {
+  background: #51cf66;
+  box-shadow: 0 6px 10px #38a93d;
+}
+
+.choiceBtn:hover:not(:disabled) {
+  background: #3baf4a;
+}
+
+#playAgainBtn,
+#playAgainBtnDashboard {
+  background: #f03e3e;
+  box-shadow: 0 6px 12px #d63636;
+}
+
+#playAgainBtn:hover:not(:disabled),
+#playAgainBtnDashboard:hover:not(:disabled) {
+  background: #b52f2f;
+}
+
+/* Result background colors */
+.win {
+  background: rgba(40, 167, 69, 0.85); /* Green */
+}
+
+.fail {
+  background: rgba(220, 53, 69, 0.85); /* Red */
+}
+
+.draw {
+  background: rgba(255, 193, 7, 0.85); /* Yellow */
+}
+
+/* Input styles */
+input[type="text"] {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 6px 20px #667eea;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  caret-color: #fff;
+}
+
+/* Dashboard List */
+#dashboardList {
+  text-align: left;
+  max-height: 160px;
+  overflow-y: auto;
+  margin-top: 16px;
+  padding-left: 20px;
+  color: #e0e0e0;
+  font-weight: 600;
+  user-select: none;
+}
+
+#dashboardList li {
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+
+/* Hand shake animation */
+@keyframes handShake {
+  0% { transform: rotate(0); }
+  25% { transform: rotate(15deg); }
+  50% { transform: rotate(-15deg); }
+  75% { transform: rotate(10deg); }
+  100% { transform: rotate(0); }
+}
