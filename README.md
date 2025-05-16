@@ -55,7 +55,9 @@ rock-paper-scissors/
 │   └── fail.mp3
 └── README.md
 
-💡 Learning Highlights
+
+
+## 💡 Learning Highlights
 DOM manipulation and event handling
 
 Game logic implementation
@@ -65,4 +67,3 @@ Using animations and transitions
 Audio handling in web apps
 
 UI/UX polish and responsive design
-
