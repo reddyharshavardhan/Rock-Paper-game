@@ -72,11 +72,11 @@ button:disabled {
 
 /* Buttons colors */
 #startBtn {
-  background: #5e72e4;
+  background: #e45e5e;
 }
 
 #startBtn:hover:not(:disabled) {
-  background: #324cdd;
+  background: #dd3249;
 }
 
 .choiceBtn {
