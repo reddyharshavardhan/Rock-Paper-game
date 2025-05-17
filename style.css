@@ -1,7 +1,7 @@
 /* Background gradient */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #ea6690, #4ba2a2);
   margin: 0;
   height: 100vh;
   display: flex;
